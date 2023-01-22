@@ -115,9 +115,7 @@ export default function LoginForm() {
                         <label for="exampleFormControlInput2" className="form-label">Password</label>
                         <input value={pass} onChange={e => setPass(e.target.value)} type="password" className="form-control" id="exampleFormControlInput2" placeholder="password" />
                     </div>
-                    <ReCAPTCHA
-                    sitekey='6Lf0YxMkAAAAAIWaoUVGxLYcwpumBGy8cM8pdcoN'
-                    />
+                    <ReCAPTCHA sitekey='6Lf0YxMkAAAAAIWaoUVGxLYcwpumBGy8cM8pdcoN'/>
                 </Modal.Body>
                 <Modal.Footer>
 
